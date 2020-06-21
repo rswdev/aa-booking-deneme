@@ -1,14 +1,14 @@
 const { passengerDatabase, driverDatabase } = require('./database')
 const printBookingHistory = require('./lib/print-booking-history')
 
-const eren = passengerDatabase.findByName('Eren MERCAN')
+//const eren = passengerDatabase.findByName('Eren MERCAN')
 // const ahmet = driverDatabase.findBy('name', 'Camdibi')
 
 
 // eren.book(ahmet, 'Kuşadası', 'İzmir')
-passengerDatabase.update(eren)
+//passengerDatabase.update(eren)
 
-printBookingHistory(eren)
+//printBookingHistory(eren)
 
 // console.log(passengerDatabase.findBy('name', 'Eren MERCAN'))
 // console.log(passengerDatabase.findBy('location', 'Eren MERCAN'))
