@@ -1,0 +1,19 @@
+{
+  "name": "aa-uber-deneme",
+  "version": "1.0.0",
+  "description": "shot for shot remade",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon --ignore '*.json'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "eren mercan",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "flatted": "^3.0.2",
+    "nodemon": "^2.0.4",
+    "uuid": "^8.1.0"
+  }
+}
